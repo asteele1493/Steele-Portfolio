@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Ursula Lopez. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Code Fellows. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Welcome",
+      "description": "Hello! My name is Andra Steele and I am a software developer based in Portland, Oregon. I am originally from Texas and have spent the last seven years traveling the world and working as a chef. I made my pivot into the tech sector at the height of the COVID-19 pandemic, and am excited to harness the skillset I have developed in the hospitality industry to become a better programmer. When I'm not coding, I enjoy cooking over live fire, drinking very good negronis, and exploring the Oregon Coast with my partner and pup.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,36 +11,49 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Gallery of Horns",
+        "startDate": "2022",
+        "description": "Gallery of Horns is my first ever React application. It lists twenty horned creatures and utilizes forms, a modal, and various bootstrap stylings to showcase creatures in the gallery. The application was created utilizing React and Bootstrap.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/hall-horns.jpg"
         ],
-        "url": "",
+        "url": "https://steele-hall-o-horns.netlify.app/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-original",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "What Do You Wanna Eat?",
+        "startDate": "2022",
+        "description": "This is a collaborative group project for our Code Fellows 201 capstone project. WDYWE is an application written in vanilla Javascript that takes in user input to generate local restaurant recommendations based on personal food preferences and dietary restrictions. Ideally, if we were to expand on this project, we would implement an API to generate restaurants within a certain radius. This particular project is limited to the Seattle metro area.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/wdywe.jpg"
+        ],
+        "url": "https://what-do-you-wanna-eat.github.io/WDYWE/",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          }
+        ]
+      },
+      {
+        "title": "Q-amp (working title)",
+        "startDate": "2022",
+        "description": "This is an idea I have for my Code Fellows 301 capstone project. Based off of the queer-slang term, camp, Q-amp is an application designed for queer people to access and share information about the great outdoors. As an out queer person, all of my experiences relating to camping and backpacking have almost always included homophobic and transphobic driven altercations with other campers. I would like to create an application that utilizes a social media component to connect folks in the queer community by sharing their experiences in outdoor spaces. This application would utilize API's to list different campgrounds based on geographic region and desired terrain, while implementing a classifieds-like user listings to denote any dangerous (or fun!) notes for other folks wanting to get outside. The ultimate goal with this project is to keep queer people safe and promote more activity in outdoor spaces.",
+        "images": [
+          "images/portfolio/qamp.jpg"
         ],
         "url": "https://github.com",
         "technologies": [
@@ -49,70 +62,26 @@
             "name": "React"
           },
           {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
             "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "name": "Javascript"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
+        "company": "Revel Meat Co.",
+        "title": "Sales representative",
+        "years": "07.2021 - present",
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
+        "company": "Jon & Vinny's Restaurant",
+        "title": "Chef",
+        "years": "10.2018 - 03.2020",
       }
     ]
   }

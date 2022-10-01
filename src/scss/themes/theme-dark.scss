@@ -16,7 +16,7 @@ body[data-theme="dark"] {
    }
 
    .slider-image {
-      border: 5px solid #8C8C8C;
+      border: 5px solid #3E6641;
    }
 
    .language {
@@ -28,19 +28,21 @@ body[data-theme="dark"] {
    }
 
    .project-date {
-      background-color: #918e97;
+      background-color: #3E6641;
       color: white;
    }
 
    header {
-      background-color: #494949;
+      background-color:#5D665D
+      ;
       h1 {
          color: white;
       }
    }
 
    #about {
-      background-color: #7f7f7f;
+      background-color: #5D665D
+      ;
       h1 span {
          color: white;
       }
@@ -59,7 +61,7 @@ body[data-theme="dark"] {
          color: white !important;
       }
       .foto div {
-         background: #6d6d6d;
+         background: #D1E6D2;
       }
       .project-title-settings {
          color: white;
